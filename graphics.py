@@ -26,12 +26,12 @@ class Window:
         line.draw(self.__canvas, fill_color)
 
 class Point:
-    def __init__(self, p1=0, p2=0):
-        self.p1 = p1
-        self.p2 = p2
+    def __init__(self, x=0, y=0):
+        self.x = x
+        self.y = y
 
 class Line:
-    def __init__(self, p1=0, p2=0):
+    def __init__(self, p1, p2):
         self.p1 = p1
         self.p2 = p2
     
